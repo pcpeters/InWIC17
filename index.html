@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>InWIC 2017</title>  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+  <div ng-app="bootstrpConf">
+  <div id="signup_form_modal" class="modal fade" aria-hidden="true" role="dialog" aria-labelledby="modal_label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="modal_label">Sign Up Today!</h4>
+        </div>
+        <div class="modal-body">
+          <form id="signup_form" action="">
+            <fieldset class="form-group">
+              <label for="first_name">First Name:</label>
+              <input class="form-control" id="first_name" placeholder="First Name">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="last_name">Last Name:</label>
+              <input class="form-control" id="last_name" placeholder="Last Name">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="email">Email:</label>
+              <input class="form-control" id="email" placeholder="Email">
+              <small class="text-muted">Your email will be used as your username.</small>
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="profession">You're:</label>
+              <select id="profession" class="c-select">
+              <option>---</option>
+              <option>Javascript Developer</option>
+              <option>Ruby developer</option>
+              <option>Python developer</option>
+              <option>Web Designer</option>
+            </select>
+            </fieldset>
+            <fieldset class="form-group">
+              <label class="c-input c-radio">
+                <input type="radio" name="age" id="age1" value="under21">
+                <span class="c-indicator"></span>
+                I am &lt;21
+              </label>
+              <label class="c-input c-radio">
+                <input type="radio" name="age" id="age2" value="over21" checked>
+                <span class="c-indicator"></span>
+                I am &gt;21
+              </label>
+            </fieldset>
+            <fieldset class="form-group m-t-2">
+              <button class="btn btn-danger" type="submit">Sign Up</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+
+  <nav class="top-nav m-b-3 p-t-1 animated fadeInDown clearfix">
+    <div class="container">
+      <ul class="list-unstyled list-inline">
+        <li class="list-inline-item m-r-1"><a href="#" class="js-scroll" data-scroll-to="#home">Home</a></li>
+        <li class="list-inline-item m-r-1"><a href="#" class="js-scroll" data-scroll-to="#about">About</a></li>
+        <li class="list-inline-item m-r-1"><a href="#" class="js-scroll" data-scroll-to="#speakers">Speakers</a></li>
+        <li class="list-inline-item m-r-1"><a href="#" class="js-scroll" data-scroll-to="#proposal">Proposal</a></li>
+        <li class="list-inline-item m-r-1"><a href="#" class="js-scroll" data-scroll-to="#sponsors">Sponsors</a></li>
+        <li class="list-inline-item m-r-1"><a href="#" class="js-scroll" data-scroll-to="#faq">FAQ</a></li>
+        <li class="list-inline-item m-r-1"><a href="#" class="js-scroll" data-scroll-to="#gallery">Gallery</a></li>
+        <li class="list-inline-item m-r-1"><a href="#" class="js-scroll" data-scroll-to="#location">Location</a></li>
+        <li class="list-inline-item m-r-1"><a href="#" class="js-scroll" data-scroll-to="#home">Contact</a></li>
+        
+        <!--
+        <li class="list-inline-item m-r-0"><a href="#" class="btn signup-btn btn-danger btn-sm" data-toggle="modal" data-target="#signup_form_modal">Register</a></li>
+        -->
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- jumbotron -->
+  <header id="home" class="top-hero jumbotron-fluid p-b-3 bg-faded">
+    <div class="container animated fadeInUp">
+      <h1 class="display-3">Indiana Women in Computing</h1>
+      <p class="lead m-t-1">October 22nd - 23rd</p>
+      <p class="lead m-t-1 m-b-2">Everything you need to know about Bootstrap.</p>
+      <button type="button" class="btn btn-lg btn-danger m-t-1" data-toggle="modal" data-target="#signup_form_modal">Register</button>
+      <button type="button" class="js-scroll btn btn-lg btn-default m-t-1" data-scroll-to="#speakers">Learn More</button>
+    </div>
+  </header>
+
+  <section id="about" class="banner about p-y-3">
+    <div class="wrapper">
+      <h2 class="m-b-2 display-5 text-uppercase">What is InWIC</h2>
+      <a href="#" class="btn btn-primary btn-lg btn-block">Learn More</a>
+    </div>
+  </section>
+
+  <section id="speakers" class="banner speakers p-y-3">
+    <div class="wrapper">
+      <h2 class="m-b-2 display-5 text-uppercase">Meet With Experts</h2>
+      <a href="#" class="btn btn-primary btn-lg btn-block">Our Speakers</a>
+    </div>
+  </section>
+
+  <section id="proposal" class="banner learn p-y-3">
+    <div class="wrapper">
+      <h2 class="m-b-2 display-5 text-uppercase">Learn Industry Practices</h2>
+      <a href="#" class="btn btn-danger btn-lg btn-block">Submit Proposal</a>
+    </div>
+  </section>
+
+  <section id="sponsors" class="banner sponsors p-y-3">
+    <div class="wrapper">
+      <h2 class="m-b-2 display-5 text-uppercase">Sponsors</h2>
+    </div>
+  </section>
+
+  <section id="faq" class="banner faq p-y-3">
+    <div class="wrapper">
+      <h2 class="m-b-2 display-5 text-uppercase">Frequently Asked Questions</h2>
+      <!-- dropdowns-->
+    </div>
+  </section>
+
+  <section id="gallery" class="banner learn p-y-3">
+    <div class="wrapper">
+      <h2 class="m-b-2 display-5 text-uppercase">Gallery</h2>
+      <a href="#" class="btn btn-danger btn-lg btn-block">View More</a>
+    </div>
+  </section>
+
+  <div id="location" class="banner signup p-y-3">
+    <div class="wrapper">
+      <h2 class="m-b-2 display-5 text-uppercase">Map</h2>
+      <a href="#" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#signup_form_modal">Register</a>
+    </div>
+  </div>
+
+  <!--Contact Form-->
+
+  <footer class="p-y-2">
+    <p class="copyright"><span id="copyright-year">2017</span> InWIC2017 - All Rights Reserved</p>
+  </footer>
+</div>
+
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>
