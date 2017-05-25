@@ -82,12 +82,10 @@ background-image: url("../home_bg.png");
   padding: 5px 15px 5px 15px; 
   display:inline-block;
   transition: all .1s ease; 
-
 }
 
 .btn-register:hover{  
-  cursor:pointer;
-  
+  cursor:pointer;  
 }
 
 @media only screen and (max-width: 768px) {
@@ -133,7 +131,6 @@ background-image: url("../home_bg.png");
 .nav-options a:hover {
   color: #063791;
   border-color: #063791;
-
 }
 
 .nav-logo span{
@@ -153,6 +150,55 @@ background-image: url("../home_bg.png");
 .banner .wrapper {
   text-align: center;
 }
+
+.about{
+  display: flex;
+  margin: 0px auto;
+}
+
+.about-col {
+  margin: 25px;
+  padding: 10px 20px 0 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  background-color: #D3D3D3; 
+  color: #484848;
+}
+.about p, ul{
+  text-align: left;
+}
+
+.about-title{
+  color: #C72885;
+}
+
+.about-news{
+  color: #C72885;
+  font-size: 1.0rem;
+}
+.btn-news{
+  align-items: center;
+  color: #C72885;
+  font-size: 1.2rem;
+  border: 1px solid;
+  border-color: #C72885;
+  margin: 0 500px 0 500px;
+}
+
+.btn-news:hover{
+  cursor: pointer;
+}
+
+li{
+  color: #C72885;
+}
+
+li span{
+  color: #484848
+}
+
+
 @media only screen and (max-width: 768px) {
   .banner {
     min-height: 400px;
@@ -164,8 +210,11 @@ background-image: url("../home_bg.png");
 }
 
 .banner.about {
-  background-color: #FFFFFF;
+  background-color: #F8F8F8;
+  color: black;
 }
+
+
 .banner.speakers, .banner.signup {
   background-color: #D90429;
 }
