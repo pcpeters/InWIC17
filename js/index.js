@@ -15,8 +15,6 @@ $('.js-scroll').on('click', function(event) {
 
 setCopyrightYear($('#copyright-year'));
 
-<script type="text/javascript">
     document.getElementById("register").onclick = function () {
         location.href = "register.html";
     };
-</script>
