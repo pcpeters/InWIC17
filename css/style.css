@@ -300,13 +300,14 @@ body{
   text-align: justify;
 }
 
-.proposal h3{
- font-size: 1.2rem;
+.proposal a{
+  font-size: 1.2rem;
+  color: #FF6699;
+  text-decoration: none;
 }
 
-.proposal h3:hover{
- text-decoration: underline;
- color: #FF6699;
+.proposal a:hover{
+  text-decoration: underline;
 }
 
 .banner.sponsors {
