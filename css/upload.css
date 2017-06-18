@@ -1,0 +1,24 @@
+.upload-block{
+ 	
+	background-position: center;
+	background-size: cover;
+	background-color: #F5F5F5;
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+	height: 100vh;
+
+}
+
+h1{
+	color: #A8086B;
+	margin-top: 110px;
+	text-align: center;
+}
+
+p{
+	color: #A8086B;
+	text-align: center;
+}
+
+
