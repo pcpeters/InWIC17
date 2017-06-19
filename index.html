@@ -7,8 +7,8 @@
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
   <link rel="stylesheet" href="css/style.css">
-
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
 
   
 </head>
@@ -74,25 +74,33 @@
   <!-- /.modal -->
 
 
-  <nav class="top-nav m-b-3 p-t-1 animated fadeInDown clearfix">
-    <div class="container">
-      <ul class="list-unstyled list-inline">
+  <nav class="top-nav m-b-3 p-t-1 animated fadeInDown clearfix" role="navigation">
+    <div class="container" data-hover="dropdown" data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft">
+      <ul class="list-unstyled list-inline nav navbar-nav">
         <li class="list-inline-item m-r-1 nav-logo"> <a href="#" class="js-scroll" data-scroll-to="#home"><span>In</span>diana <span>W</span>omen <span>I</span>n <span>C</span>omputing 17</a></li>
 
-          <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#contact">Contact</a></li> 
+         <!--<li class="list-inline-item m-r-2 nav-options dropdown-submenu"><a href="#" class="js-scroll" data-scroll-to="#contact">Contact<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">HTML</a></li>
+              <li><a tabindex="-1" href="#">CSS</a></li>
+            </ul>
+          </li> -->
+
+          <li class="list-inline-item m-r-2 nav-options dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+              <ul class="dropdown-menu dropdown-menu-right" data-animations="fadeInDown fadeInLeft fadeInUp fadeInRight">
+                    <li><a href="#">Submit question/comment</a></li>
+                    <li><a href="#">Program Staff</a></li>
+                    <li><a href="#">School coordinators</a></li>
+              </ul>
+          </li>
           <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#location">Location</a></li>
           <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#gallery">Gallery</a></li>
           <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#faq">FAQ</a></li>
           <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#sponsors">Sponsors</a></li>
           <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#proposal">Proposal</a></li>
           <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#speakers">Speakers</a></li>
-          <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#about">About</a></li>       
-                 
-        
-        <!--
-        <li class="list-inline-item m-r-0"><a href="#" class="btn signup-btn btn-danger btn-sm" data-toggle="modal" data-target="#signup_form_modal">Register</a></li>
-        -->
-
+          <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#about">About</a></li> 
       </ul>
     </div>
   </nav>
