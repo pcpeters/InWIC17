@@ -90,6 +90,7 @@ body{
   color: #C72885;
   background-color: white;
   font-weight: bold;  
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -191,14 +192,16 @@ body{
   /*color: #C72885;*/
   color: white;
   font-size: 1.2rem;
-  border: 1px solid;
-  /*border-color: #C72885;*/
+  /*border: 1px solid;
+  border-color: #C72885;*/
   border-color: white;
   margin: 0 500px 0 500px;
 }
 
 .btn-news:hover{
   cursor: pointer;
+  color: white;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 768px) {
@@ -291,6 +294,7 @@ body{
   /*color: #99066B;*/
   color: #FF6699;
   font-weight: bold;
+  margin-top: 70px;
 }
 
 .proposal p{
@@ -300,13 +304,14 @@ body{
   text-align: justify;
 }
 
-.proposal h3{
- font-size: 1.2rem;
+.proposal a{
+  font-size: 1.2rem;
+  color: #FF6699;
+  text-decoration: none;
 }
 
-.proposal h3:hover{
- text-decoration: underline;
- color: #FF6699;
+.proposal a:hover{
+  text-decoration: underline;
 }
 
 .banner.sponsors {
