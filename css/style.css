@@ -376,9 +376,62 @@ body {
   text-decoration: underline;
 }
 
+/*-- SPONSORS --*/
 .banner.sponsors {
+  color: black;
+  background-color: white;
+  
+}
 
-  background-color: #909090;
+.sponsors h2{
+
+  color: #CF0280;
+  font-weight: bold;
+}
+
+.sponsors p {
+
+  color: #CF0280;
+}
+
+.sponsor-img {
+
+  max-height: 250px;
+  max-width: 150px; 
+  overflow-y: hidden;
+  overflow-x:auto;
+
+}
+
+.sponsor-table table {
+
+  float: left;
+  border: 1px;
+}
+
+.sponsor-table th, td {
+
+  text-align: center;
+  padding: 15px;
+
+}
+
+.divider {
+
+  border-left: 1px solid #ddd;
+}
+
+.images {
+
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 90px;
+  /*height: auto;
+  max-width: auto;*/
+  
+  white-space: nowrap;  
 }
 
 .banner.faq {
@@ -391,9 +444,10 @@ body {
   background-color:#909090;
 }
 
-.banner.location {
+.banner.contact {
 
-  background-color: #FFFFFF;
+  background-color: #E0AF26;
+  color: black;
 }
 
 .banner.location {
