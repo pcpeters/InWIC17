@@ -1,0 +1,18 @@
+#contact-section{
+	padding-top: 44px !important;
+    margin-left: 63px !important;
+}
+
+#contact-section h4{
+	color: #CC0A6E !important;
+}
+
+p{
+	    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.form-group div{
+	margin-top:10px !important;
+	margin-bottom:10px !important;
+}

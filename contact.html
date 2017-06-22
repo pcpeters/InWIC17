@@ -1,0 +1,101 @@
+<html>
+<head>
+<title></title>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/contact.css">
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js'></script>
+<!--<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> -->
+</head>
+<body>
+<header>
+  <nav class="top-nav m-b-3 p-t-1 animated fadeInDown clearfix" role="navigation">
+    <div class="container" data-hover="dropdown" data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft">
+      <ul class="list-unstyled list-inline nav navbar-nav">
+        <li class="list-inline-item m-r-1 nav-logo"> <a href="#" class="js-scroll" data-scroll-to="#home"><span>In</span>diana <span>W</span>omen <span>I</span>n <span>C</span>omputing 17</a></li>
+
+          <li class="list-inline-item m-r-2 nav-options dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+              <ul class="dropdown-menu dropdown-menu-right" data-animations="fadeInDown fadeInLeft fadeInUp fadeInRight">
+                    <li><a href="contact.html">Submit question/comment</a></li>
+                    <li><a href="#">Program Staff</a></li>
+                    <li><a href="#">School coordinators</a></li>
+              </ul>
+          </li>
+          <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#faq">FAQ</a></li>
+          <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#sponsors">Sponsors</a></li>
+          <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#proposal">Proposal</a></li>
+          <li class="list-inline-item m-r-2 nav-options"><a href="#" class="js-scroll" data-scroll-to="#speakers">Speakers</a></li>
+          <li class="list-inline-item m-r-2 nav-options"><a href="index.html" class="js-scroll" data-scroll-to="#about">About</a></li> 
+      </ul>
+    </div>
+  </nav>
+</header>
+  <div id="contact-section" class="container">
+    <h4>Contact us</h4>
+    <p>We are here to answer any question you may have about InWIC 2017. Reach out to us and we will respond as soon as we can</p>
+  <form class="form-horizontal" action="/action_page.php">
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-md-4">
+        <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" name="firstName">
+      </div><div class="col-sm-4">
+        <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" name="lastName">
+      </div>
+       <div class="col-sm-offset-2"></div>
+    </div>
+
+     <div class="form-group">
+      <div class="col-sm-offset-2 col-md-4">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div><div class="col-md-4">
+        <input type="number" class="form-control" id="phoneNumber" placeholder="Enter Phone Number" name="phone">
+      </div>
+      <div class="col-sm-offset-2"></div>
+    </div>
+
+     <div class="form-group">
+      <div class="col-sm-offset-2  col-md-4">
+        <input type="text" class="form-control" id="mail" placeholder="Enter mailing address" name="mail">
+      </div><div class="col-md-4">
+        <input type="text" class="form-control" id="city" placeholder="Enter city" name="city">
+      </div>
+      <div class="col-sm-offset-2"></div>
+    </div>
+
+     <div class="form-group">
+      <div class="col-sm-offset-2  col-md-4">
+        <input type="text" class="form-control" id="state" placeholder="Enter state code" name="state">
+      </div><div class="col-md-4">
+        <input type="number" class="form-control" id="zip" placeholder="Enter zipcode" name="zip">
+      </div>
+      <div class="col-sm-offset-2"></div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-md-8">
+        <input type="textarea" class="form-control" id="message" placeholder="Enter your message here" name="message">
+      </div>
+      <div class="col-sm-offset-2"></div>
+    </div>
+
+    <div class="form-group">        
+      <div class="col-sm-offset-6 col-sm-1">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+      <div class="col-sm-offset-5"></div>
+    </div>
+  </form>
+</div>
+<div id="footer"></div>
+</body>
+</html>
