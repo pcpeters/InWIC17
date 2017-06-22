@@ -35,19 +35,32 @@ body {
   background-color: #fafafa;
 }
 
-.top-hero {  
+.banner {
 
-  background-color: #C72885;
+  color: #EDF2F4;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.top-hero {  
+  
   background-image: url("../img/home_bg.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /*background-attachment: fixed;*/
+  background-size: cover;
   width: 100vw;
   height:100vh;
-  display: flex;
-  
+  display: flex;  
+
   /*
+  *background-attachment: fixed;
+  background-color: #C72885*
   background-image: url("../home_bg.png");
   background-image: linear-gradient(rgba(43, 45, 66, 0.75), rgba(43, 45, 66, 0.75)), url("../home_bg.png");
   background-color: #fafafa;
@@ -60,6 +73,8 @@ body {
   display: flex;
   align-items: center;*/
 }
+
+
 .top-hero h1 {
 
   color: #C42E87;
@@ -73,13 +88,34 @@ body {
 
 .top-hero p {
 
-  color: #EDF2F4; 
-  padding-left: 880px;
-  padding-right: 50px;
-  padding-top: 20px;
-  font-size: 1.2rem;
+  /*color: #EDF2F4; 
+  color: #CC0A6E;
+  color: #ED32AC;
+  color: #ED2BA9;*/
+  color: black;
+  font-size: 1.1rem;
 
 }
+
+.top-hero .intro {
+
+  margin: 20px 40px 20px 40px;
+  
+}
+
+.top-hero .date {
+
+  color:#1C7BC9;
+  font-size: 1.0rem;
+}
+
+.top-hero .addr {
+
+  color:#1C7BC9;
+  font-size: 1.0rem;
+  padding-top: 10px;
+}
+
 
 .top-hero .looking-forward {
 
@@ -89,23 +125,43 @@ body {
   padding-top: 70px;
 }
 
+.top-hero .home-desc {
+
+  width: 35%; 
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.top-hero .home-desc img{
+
+  max-height: 80%;
+  max-width:  80%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;  
+
+}
+
 .btn-register {
 
-  color: white;
+  /*color: white;*/
+  color: #C72885;
   border: 1px solid; 
-  border-color: white; 
+  border-color: #C72885; 
   padding: 5px 15px 5px 15px; 
   display:inline-block;
   transition: all .1s ease; 
+  font-size: 1.1rem;
 }
 
 .btn-register:hover {  
 
   cursor:pointer;
-  color: #C72885;
-  background-color: white;
+  color: white;
+  background-color: #C72885;
   font-weight: bold;  
   text-decoration: none;
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -179,17 +235,6 @@ body {
   color: #CC0A6E;
 }
 
-.banner {
-
-  color: #EDF2F4;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 
 .banner .wrapper {
 
@@ -202,6 +247,8 @@ body {
 
   display: flex;
   margin: 0px auto;
+  word-wrap:break-word;
+  white-space:normal
 }
 
 .about-col {
